@@ -8,5 +8,6 @@ def check(*args):
         return str(e)
     return 'ok'
 
-check(np.random.randn(10))
 
+def other_function():
+    return np.random.rand(10)
